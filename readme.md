@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-=======
 # Centrifugal Pump Failure Detection System
 
 ### Config Reference Data
@@ -70,4 +67,5 @@ Refer to example.csv to know about the format that must be used to run the progr
 ```bash
 ./cfpms-{os} --q 54.8 --pd 47 --i 18 --n 53 --lemda 4.5 --se 2.5 --cv 45 --file deviation_data.csv
 ```
->>>>>>> 8b023ea (Packaged)
+
+> > > > > > > 8b023ea (Packaged)
