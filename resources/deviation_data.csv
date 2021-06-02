@@ -1,0 +1,63 @@
+Criticality ranking,Failure Cause code,Possible cause of the failure (Failure Mode),Q (M3/hr),No liquid delivery,Pd (kg/cm2),NPSHR (m),Pm (kw)/Ct (amps),h (%),Change in Vibration,"Vib. Signature, l (mm/s)","Spike energy, gSE","Noise, dB",Mech. Seal leakage,TP (0C),TB(oC),TMoC,Disc. Cntrl. Vlv. Opening (%),Average Deviation
+FC1,FM21,Worn wearing ring,(-),,(--),NC,(++),(--),yes,1. Peak at Vane pass freq.,(+),NC,,NC,NC,,(++),
+,,SV of parameters,57.7, -,54.6,,17,60, -,2.8,0.5, -,,,, -,35,
+,,1st. Threshold values of parameters,54.8, -,47,,18,53, -,4.5,2.5, -,,,, -,45,0.751114491923953
+,,Deviation (in %) of 1st Threshold value,0.050259965337955, -,0.139194139194139,,0.058823529411765,0.116666666666667, -,0.607142857142857,4,,,,, -,0.285714285714286,0.751114491923953
+,,2nd. Threshold value,54.8, -,42,,19,40, -,4.6,3, -,,,, -,60,1.01273606362956
+,,Deviation (in %) of 2nd Threshold value,0.050259965337955, -,0.230769230769231,,0.117647058823529,0.333333333333333, -,0.642857142857143,5, -,,,, -,0.714285714285714,
+FC2,FM22,"Worn, rusted defective bearing",NC, -,NC,NC,(++),NC,yes,1. Dominant peak at Bearing defect freq.,(++),(++),,NC,(++),NC,NC,
+,,SV of parameters,, -,,,17,,,2.8,0.5,,,,70,,,
+,,1st. Threshold values of parameters,, -,,,18,,,4.5,2.5,,,,80,,,1.20220588235294
+,,Deviation (in %) of 1st Threshold value,, -,,,0.058823529411765,,,0.607142857142857,4,,,,0.142857142857143,,,
+,,2nd. Threshold value,, -,,,19,,,4.6,3,,,,90,,,1.51155462184874
+,,Deviation (in %) of 2nd Threshold value,, -,,,0.117647058823529,,,0.642857142857143,5,,,,0.285714285714286,,,
+FC3,FM19,Starvation at Pump suction/Insufficient suction volume,(--),,(--),NC,(--),NC,yes,1. Peak at Vane pass freq.,(++),(++),,(+),(++),,(++),
+,,SV of parameters,57.7,,54.6,,17,,,2.8,0.5,,,260,70,,35,
+,,1st. Threshold values of parameters,54.8,,47,,15,,,4.5,2.5,,,300,80,,45,0.687082700364508
+,,Deviation (in %) of 1st Threshold value,0.050259965337955,,0.139194139194139,,0.117647058823529,,,0.607142857142857,4,,,0.153846153846154,0.142857142857143,,0.285714285714286,
+,,2nd. Threshold value,54.8,,42,,15,,,4.6,3,,,320,90,,60,0.909037828569636
+,,Deviation (in %) of 2nd Threshold value,0.050259965337955,,0.230769230769231,,0.117647058823529,,,0.642857142857143,5,,,0.230769230769231,0.285714285714286,,0.714285714285714,
+FC4,FM12,Internal rubbing,NC,,NC,NC,(++),NC,yes,"1. Multiple harmonics at 1X.
+2. 0.5X, 0.33X harmonics.",(++),(+),,(++),NC,NC,,
+,,SV of parameters,,,,,17,,,2.8,0.5,,,260,,,,
+,,1st. Threshold values of parameters,,,,,18,,,4.5,2.5,,,300,,,,1.20495313510019
+,,Deviation (in %) of 1st Threshold value,,,,,0.058823529411765,,,0.607142857142857,4,,,0.153846153846154,,,,
+,,2nd. Threshold value,,,,,19,,,4.6,3,,,320,,,,1.49781835811248
+,,Deviation (in %) of 2nd Threshold value,,,,,0.117647058823529,,,0.642857142857143,5,,,0.230769230769231,,,,
+FC5,FM16,NPSHA < NPSHR,(-),,(-),NC,NC,NC,yes,1. Peak at Vane pass freq.,(++),(++),,(+),(+),,(++),
+,,SV of parameters,57.7,,54.6,,,,,2.8,0.5,,,260,70,,35,
+,,1st. Threshold values of parameters,54.8,,47,,,,,4.5,2.5,,,300,80,,45,0.768430649156076
+,,Deviation (in %) of 1st Threshold value,0.050259965337955,,0.139194139194139,,,,,0.607142857142857,4,,,0.153846153846154,0.142857142857143,,0.285714285714286,
+,,2nd. Threshold value,54.8,,42,,,,,4.6,3,,,320,90,,60,1.02209365281908
+,,Deviation (in %) of 2nd Threshold value,0.050259965337955,,0.230769230769231,,,,,0.642857142857143,5,,,0.230769230769231,0.285714285714286,,0.714285714285714,
+FC6,FM26,Discharge Cavitation (Pump operating at lower capacity),(---),NC,(++),(--),(--),NC,yes,1. Peak at Vane pass freq.,(++),(++),,(++),(+),,(-),
+,,SV of parameters,57.7,,54.6,4.1,17,,,2.8,0.5,,,260,70,,35,
+,,1st. Threshold values of parameters,21,,58,3.8,13,,,4.5,2.5,,,300,80,,20,0.704355780100678
+,,Deviation (in %) of 1st Threshold value,0.636048526863085,,0.062271062271062,0.073170731707317,0.235294117647059,,,0.607142857142857,4,,,0.153846153846154,0.142857142857143,,0.428571428571429,
+,,2nd. Threshold value,21,,58,3.8,13,,,4.6,3,,,320,90,,20,0.843855169600068
+,,Deviation (in %) of 2nd Threshold value,0.636048526863085,,0.062271062271062,0.073170731707317,0.235294117647059,,,0.642857142857143,5,,,0.230769230769231,0.285714285714286,,0.428571428571429,
+FC7,FM20,Worn Impeller,(--),,(--),NC,(-),(--),yes,1. Peak at Vane Pass Freq.,,(++),,NC,NC,NC,(++),
+,,SV of parameters,57.7,,54.6,,17,60,,2.8,0.5,,,,,,35,
+,,1st. Threshold values of parameters,54.8,,47,,15,53,,4.5,2.5,,,,,,45,0.75951785326849
+,,Deviation (in %) of 1st Threshold value,0.050259965337955,,0.139194139194139,,0.117647058823529,0.116666666666667,,0.607142857142857,4,,,,,,0.285714285714286,
+,,2nd. Threshold value,54.8,,42,,15,40,,4.6,3,,,,,,60,1.01273606362956
+,,Deviation (in %) of 2nd Threshold value,0.050259965337955,,0.230769230769231,,0.117647058823529,0.333333333333333,,0.642857142857143,5,,,,,,0.714285714285714,
+FC8,FM25,Hydraulic instability,NC,,NC,NC,NC,NC,yes,1. Peak at Vane pass freq.,,(++),,,(++),,,
+,,SV of parameters,,,,,,,,2.8,,,,,70,,,
+,,1st. Threshold values of parameters,,,,,,,,4.5,,,,,80,,,0.375
+,,Deviation (in %) of 1st Threshold value,,,,,,,,0.607142857142857,,,,,0.142857142857143,,,
+,,2nd. Threshold value,,,,,,,,4.6,,,,,90,,,0.464285714285714
+,,Deviation (in %) of 2nd Threshold value,,,,,,,,0.642857142857143,,,,,0.285714285714286,,,
+FC9,FM15,Misalignment(Pump-driver),NC,NC,NC,NC,(++),NC,yes,1. Dominant peak at 2X.,,NC,,(++),(++),NC,,
+,,SV of parameters,,,,,17,,,2.8,,,,260,70,,,
+,,1st. Threshold values of parameters,,,,,18,,,4.5,,,,300,80,,,0.24066742081448
+,,Deviation (in %) of 1st Threshold value,,,,,0.058823529411765,,,0.607142857142857,,,,0.153846153846154,0.142857142857143,,,
+,,2nd. Threshold value,,,,,19,,,4.6,,,,320,90,,,0.319246929541047
+,,Deviation (in %) of 2nd Threshold value,,,,,0.117647058823529,,,0.642857142857143,,,,0.230769230769231,0.285714285714286,,,
+FC10,FM14,Misalignment due to Excessive Pipe strain.,NC,NC,NC,NC,(++),NC,yes,"1. Generally excites 1X. 
+2. 2X / 3X if strain is excessive causing misalignment",,NC,,NC,(++),NC,NC,
+,,SV of parameters,,,,,17,,,2.8,,,,,70,,,
+,,1st. Threshold values of parameters,,,,,18,,,4.5,,,,,80,,,0.269607843137255
+,,Deviation (in %) of 1st Threshold value,,,,,0.058823529411765,,,0.607142857142857,,,,,0.142857142857143,,,
+,,2nd. Threshold value,,,,,19,,,4.6,,,,,90,,,0.348739495798319
+,,Deviation (in %) of 2nd Threshold value,,,,,0.117647058823529,,,0.642857142857143,,,,,0.285714285714286,,,

@@ -1,0 +1,27 @@
+{ 
+  "name": "cfpms",
+  "version": "1.0.0",
+  "main":"sample.js",
+  "bin":"sample.js",
+  "scripts": {
+    "start":"npm start",
+    "publish": "npx pkg ."
+  },
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "yargs": "^17.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^15.6.1",
+    "pkg": "^5.2.1"
+  },
+  "pkg": {
+    "scripts": ["*.js","shared/.js"],
+    "assets": ["assets/*.csv"],
+    "outputPath": "dist"
+  },
+  "author": {"email": "harshitsnghl@gmail.com","name": "Harshit Singhal"},
+  "displayName": "Centrifugal Pump Failure Detection",
+  "private":true,
+  "os": ["Windows","Linux","MacOS"]
+}
